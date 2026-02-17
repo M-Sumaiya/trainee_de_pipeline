@@ -173,12 +173,11 @@ Idempotency is achieved through:
 
 ## ✅ Data Quality Checks
 
-Basic checks during transformation:
-
-* Required columns exist
-* Currency values are numeric
-* Dates are valid
-* Deterministic keys are generated
+Basic checks performed during transformation:
+* Required columns exist for each dataset
+* Currency and amount values are non-negative and numeric
+* Dates are valid and properly converted
+* Deterministic unique keys are generated for idempotency
 
 ---
 
