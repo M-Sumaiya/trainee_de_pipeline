@@ -292,6 +292,8 @@ Tables created:
 * `attendance`
 
 Each table follows the schema defined in the `sql/` folder.
+<img width="1542" height="790" alt="image" src="https://github.com/user-attachments/assets/cd661921-3a5d-40da-92d7-cd1e6ff5196e" />
+
 
 ---
 
