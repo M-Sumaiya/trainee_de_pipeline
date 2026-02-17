@@ -4,8 +4,7 @@ CREATE TABLE IF NOT EXISTS `trainee-data-engineering.trainee_de_dataset.attendan
     staff_id STRING,
     date DATE,
     session_id STRING,
-    status STRING,
-    PRIMARY KEY(attendance_id)
+    status STRING
 );
 
 -- Staging table

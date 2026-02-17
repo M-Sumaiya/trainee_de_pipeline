@@ -6,8 +6,7 @@ CREATE TABLE IF NOT EXISTS `trainee-data-engineering.trainee_de_dataset.sales` (
     UnitPrice FLOAT64,
     TotalSales FLOAT64,
     UnitPrice_USD FLOAT64,
-    TotalSales_USD FLOAT64,
-    PRIMARY KEY(sales_id)
+    TotalSales_USD FLOAT64
 );
 
 -- Staging Sales table

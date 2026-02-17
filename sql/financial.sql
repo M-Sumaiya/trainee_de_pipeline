@@ -8,7 +8,6 @@ CREATE TABLE IF NOT EXISTS `trainee-data-engineering.trainee_de_dataset.financia
     Revenue_USD FLOAT64,
     Expense_USD FLOAT64,
     Profit_USD FLOAT64,
-    PRIMARY KEY(transaction_id)
 );
 
 -- Staging Financial table
